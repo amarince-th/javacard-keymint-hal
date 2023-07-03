@@ -30,7 +30,7 @@ class ITransport {
     /**
      * Opens connection.
      */
-	virtual bool openConnection() = 0;
+    virtual bool openConnection() = 0;
     /**
      * Send data over communication channel and receives data back from the remote end.
      */
@@ -59,7 +59,7 @@ public:
      * Gets the binder instance of ISEService, gets the reader corresponding to secure element, establishes a session
      * and opens a basic channel.
      */
-	bool openConnection() override;
+    bool openConnection() override;
     /**
      * Transmists the data over the opened basic channel and receives the data back.
      */
@@ -84,7 +84,7 @@ public:
     /**
      * Creates a socket instance and connects to the provided server IP and port.
      */
-	bool openConnection() override;
+    bool openConnection() override;
     /**
      * Sends data over socket and receives data back.
      */
