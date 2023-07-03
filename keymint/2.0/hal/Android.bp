@@ -115,10 +115,3 @@ prebuilt_etc {
     vendor: true,
     src: "android.hardware.strongbox_keystore-thales.xml",
 }
-
-prebuilt_etc {
-    name: "hal_uuid_map_config.xml",
-    sub_dir: "",
-    vendor: true,
-    src: "etc/hal_uuid_map_config.xml",
-}
